@@ -128,10 +128,6 @@ public class ClienteController {
 //	return Arrays.asList(cliente1, cliente2);
 //}
 
-//////
-
-
-
 
 
 
