@@ -1,0 +1,5 @@
+package com.devmam.entregalog.api.exceptionhandler;
+
+public class Problema {
+
+}

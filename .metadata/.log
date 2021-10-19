@@ -2906,3 +2906,123 @@ java.util.concurrent.TimeoutException
 
 !ENTRY Activator 1 0 2021-10-19 04:39:53.913
 !MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:08:31.418
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:08:32.020
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:10:41.378
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:10:42.049
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:24:50.016
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:24:50.899
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:26:36.274
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:26:36.908
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:27:48.397
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:27:49.016
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-10-19 05:28:50.594
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-10-19 05:30:49.125
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:30:49.726
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:31:13.803
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:31:14.511
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:34:05.886
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:34:06.711
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-10-19 05:36:38.475
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-10-19 05:41:20.485
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:41:21.398
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:45:37.411
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:45:37.622
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:48:09.366
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:48:09.520
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:51:08.401
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:51:09.043
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:54:18.180
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:54:20.402
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:55:34.890
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:55:34.980
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:58:56.399
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:58:57.147
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:59:35.688
+!MESSAGE Has main method computation for project 'devmam-api'
+
+!ENTRY Activator 1 0 2021-10-19 05:59:36.436
+!MESSAGE Has main method computation for project 'devmam-api'
