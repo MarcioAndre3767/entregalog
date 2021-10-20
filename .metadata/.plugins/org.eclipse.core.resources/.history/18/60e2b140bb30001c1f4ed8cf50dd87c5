@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.devmam.entregalog.domain.model.Cliente;
 import com.devmam.entregalog.domain.repository.ClienteRepository;
-import com.devmam.entregalog.domain.service.CatalogoClienteService;
 
 import lombok.AllArgsConstructor;
 
@@ -29,8 +28,10 @@ import lombok.AllArgsConstructor;
 public class ClienteController {
 	
 
+	//@Autowired -> All...
 	private ClienteRepository clienteRepository;
-	private CatalogoClienteService catalogoClienteService;
+	
+	
 	
 	
 	@GetMapping
@@ -47,29 +48,37 @@ public class ClienteController {
 		
 		return clienteRepository.findById(clienteId)
 					.map(ResponseEntity::ok)
-					.orElse(ResponseEntity.notFound().build());		
+					.orElse(ResponseEntity.notFound().build());
+		
+		
+		
+//		Optional<Cliente> cliente = clienteRepository.findById(clienteId);
+//		
+//		if (cliente.isPresent()) {
+//			return  ResponseEntity.ok(cliente.get());	
+//		}
+//		
+//		return ResponseEntity.notFound().build(); 
 	}
 	
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public Cliente adicionar(@Valid @RequestBody Cliente cliente) {
-		//return clienteRepository.save(cliente);
-		return catalogoClienteService.salvar(cliente);
+		return clienteRepository.save(cliente);
 	}
 	
 	
 	
 	@PutMapping("/{clienteId}")
-	public ResponseEntity<Cliente> atualizar(@PathVariable Long clienteId, @Valid @RequestBody Cliente cliente){
+	public ResponseEntity<Cliente> atualizar(@Valid @PathVariable Long clienteId, @RequestBody Cliente cliente){
 		
 		if(!clienteRepository.existsById(clienteId)) {
 			return ResponseEntity.notFound().build();
 		}
 		
 		cliente.setId(clienteId);
-		//cliente = clienteRepository.save(cliente);
-		cliente = catalogoClienteService.salvar(cliente);
+		cliente = clienteRepository.save(cliente);
 		
 		return ResponseEntity.ok(cliente);
 	}
@@ -83,8 +92,7 @@ public class ClienteController {
 			return ResponseEntity.notFound().build();
 		}
 		
-		//clienteRepository.deleteById(clienteId);
-		catalogoClienteService.excluir(clienteId);
+		clienteRepository.deleteById(clienteId);
 		
 		return ResponseEntity.noContent().build();
 	}
@@ -120,7 +128,7 @@ public class ClienteController {
 //	return Arrays.asList(cliente1, cliente2);
 //}
 
-
+//////
 
 
 

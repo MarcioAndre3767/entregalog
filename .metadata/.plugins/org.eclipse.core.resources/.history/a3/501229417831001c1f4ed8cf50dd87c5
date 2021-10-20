@@ -1,0 +1,5 @@
+package com.devmam.entregalog.domain.service;
+
+public class CatalogoClienteService {
+
+}
